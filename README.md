@@ -6,7 +6,7 @@ e.g. ``"2h30m" -> 9000000    "1 Hour 10 Minutes 5 seconds" -> 4205000``
 
 ###Usage
 
-Use str.ms('string') where you would usually put your millisecond value.
+Use ``str.ms('string')`` where you would usually put your millisecond value.
 
 e.g.
 
@@ -24,7 +24,7 @@ The following types can be handled all are case insensitive:
  - Minute (minute, minutes, mins, min, m)
  - Second (second, seconds, secs, sec, s)
  
-It only actualy looks for one of the letters after a number (or space then letter), so you could measure your Days in Daves if you really wanted to.
+It only actually looks for one of the letters after a number (or space then letter), so you could measure your Days in Daves if you really wanted to.
  
 Decimal points are handled, so you can specify ``0.5 Hours`` or ``.25mins``.
  
